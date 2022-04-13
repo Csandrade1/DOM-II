@@ -16,9 +16,8 @@ busImg.addEventListener("dblclick", function (e) {
   alert("Hello World!!!");
 });
 
-//mouseleave
-const welcome = document.querySelector(".intro h2");
-
-welcome.addEventListener("mouseenter", function (event) {
-  event.target.style.color = "black";
+//click
+const bodySection = document.querySelector(".footer");
+bodySection.addEventListener("click", function (event) {
+  event.target.style.fontWeight = "bold";
 });
